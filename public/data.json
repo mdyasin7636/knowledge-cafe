@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "authorName": "Evan Fisher",
+    "blogTitle": "How to get your first job as a self-taught programmer",
+    "authorImage": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "blogCoverImage": "https://images.pexels.com/photos/574077/pexels-photo-574077.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "readTime": 5,
+    "publishDate": "Mar 10 (20 Days ago)"
+  },
+  {
+    "id": 2,
+    "authorName": "Edwards Elliott",
+    "blogTitle": "How to get your first job as a self-taught programmer",
+    "authorImage": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "blogCoverImage": "https://images.pexels.com/photos/574077/pexels-photo-574077.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "readTime": 8,
+    "publishDate": "Mar 15 (15 Days ago)"
+  },
+  {
+    "id": 3,
+    "authorName": "Clarke Collins",
+    "blogTitle": "How to get your first job as a self-taught programmer",
+    "authorImage": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "blogCoverImage": "https://images.pexels.com/photos/574077/pexels-photo-574077.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "readTime": 12,
+    "publishDate": "Mar 20 (10 Days ago)"
+  },
+  {
+    "id": 4,
+    "authorName": "Bradley Baker",
+    "blogTitle": "How to get your first job as a self-taught programmer",
+    "authorImage": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "blogCoverImage": "https://images.pexels.com/photos/574077/pexels-photo-574077.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "readTime": 18,
+    "publishDate": "Mar 25 (5 Days ago)"
+  }
+]
