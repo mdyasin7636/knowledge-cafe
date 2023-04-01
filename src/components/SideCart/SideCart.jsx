@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
-const SideCart = ({readTime}) => {
+const SideCart = ({readTime, bookmarkedBlogs}) => {
   const [time, setTime] = useState(readTime)
 
   useEffect(() => {
@@ -14,7 +14,7 @@ const SideCart = ({readTime}) => {
         <h1>Spent time on read : {time} min</h1>
       </div>
       <div className="border-2 rounded-md text-xl font-bold p-4 text-center bg-gray-100 mt-4">
-        <h1>Bookmarked Blogs : 0 </h1>
+        <h1>Bookmarked Blogs : {bookmarkedBlogs} </h1>
         <div className="border-1 rounded-md bg-white mt-4 p-2 font-medium">
           <h1>Master Microsoft Power Platform and Become an In-Demand!</h1>
         </div>

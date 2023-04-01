@@ -3,7 +3,7 @@ import { BsBookmark } from "react-icons/bs";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
-const Blogs = ({ blog, handleAddToCart }) => {
+const Blogs = ({ blog, handleReadTime, handleBookmark }) => {
 
  const showToast = () => {
   toast("Wow so easy !");
@@ -33,14 +33,14 @@ const Blogs = ({ blog, handleAddToCart }) => {
           <p className="mr-2 font-semibold text-base text-gray-500">
             {blog.readTime} min read
           </p>
-          <span onClick={showToast} >
+          <span onClick={handleBookmark} >
             <BsBookmark size={25} />
           </span>
         </div>
       </div>
       <h1 className="text-3xl font-bold mt-2">{blog.blogTitle}</h1>
       <p
-        onClick={() => handleAddToCart(blog.readTime)} className="text-base font-semibold text-indigo-700 mt-2 underline mb-7"
+        onClick={() => handleReadTime(blog.readTime)} className="text-base font-semibold text-indigo-700 mt-2 underline mb-7"
       >
         Mark as read
       </p>
