@@ -16,7 +16,7 @@ const SideCart = ({readTime, bookmarkedBlogs}) => {
       <div className="border-2 rounded-md text-xl font-bold p-4 text-center bg-gray-100 mt-4">
         <h1>Bookmarked Blogs : {bookmarkedBlogs} </h1>
         <div className="border-1 rounded-md bg-white mt-4 p-2 font-medium">
-          <h1>Master Microsoft Power Platform and Become an In-Demand!</h1>
+          <h1>How to get your first job as a self-taught programmer</h1>
         </div>
       </div>
     </div>
@@ -24,3 +24,6 @@ const SideCart = ({readTime, bookmarkedBlogs}) => {
 };
 
 export default SideCart;
+
+
+ 
