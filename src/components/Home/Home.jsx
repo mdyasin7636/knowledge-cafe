@@ -7,7 +7,7 @@ import 'react-toastify/dist/ReactToastify.css';
 const Home = () => {
   const [blogs, setBlogs] = useState([]);
   const [readTime, setReadTime] = useState("")
-  const [bookmarkedBlogs, setBookmarkedBlogs] = useState(0);
+   const [bookmarkedBlogs, setBookmarkedBlogs] = useState({ count: 0, titles: [] });
 
   useEffect(() => {
     fetch("data.json")
@@ -28,17 +28,21 @@ const Home = () => {
       }
   }
 
-    const handleBookmark = () => {
-    setBookmarkedBlogs(bookmarkedBlogs + 1);
-  }
-
+     const handleBookmarkClick = (title) => {
+    const newBookmarkedBlogs = {
+      count: bookmarkedBlogs.count + 1,
+      titles: [...bookmarkedBlogs.titles, title]
+    };
+    setBookmarkedBlogs(newBookmarkedBlogs);
+  };
+  
   return (
     <div className="home-container row grid grid-cols-1 md:grid-cols-10 mt-6 gap-4">
       <div className="blog-container col-span-7 mb-6">
         {blogs.map((blog) => <Blogs 
         blog={blog}
         handleReadTime={handleReadTime}
-        handleBookmark={handleBookmark}
+         handleBookmarkClick={handleBookmarkClick}
         ></Blogs>)}
       </div>
       <div className="bookmark-container col-span-3">
