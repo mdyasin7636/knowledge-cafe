@@ -34,6 +34,7 @@ const Home = () => {
       titles: [...bookmarkedBlogs.titles, title]
     };
     setBookmarkedBlogs(newBookmarkedBlogs);
+
   };
   
   return (

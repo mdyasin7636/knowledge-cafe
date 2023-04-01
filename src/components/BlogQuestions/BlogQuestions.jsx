@@ -14,11 +14,11 @@ const BlogQuestions = () => {
                 </div>
                 <div className='mb-4 border p-4 rounded-md'>
                     <h1 className="text-2xl font-bold text-blue-800 mb-2">Q: Purpose of useEffect other than fetching data</h1>
-                    <p className="text-lg font-medium text-teal-950">Ans: The Purpose of useEffect other than fetching data is that useEffect hook in React is commonly used to fetch data from an API, but it can also be used for other purposes such as updating the document title, setting up event listeners, and cleaning up after a component. By running code after a component is mounted or updated, useEffect can be used to create more complex and interactive components that respond to user actions and update the document state.</p>
+                    <p className="text-lg font-medium text-teal-950">Ans: The Purpose of useEffect other than fetching data is that useEffect hook in React is commonly used to fetch data from an API but it can also be used for other purposes such as updating the document title, setting up event listeners, and cleaning up after a component. By running code after a component is mounted or updated, useEffect can be used to create more complex and interactive components that respond to user actions and update the document state.</p>
                 </div>
                 <div className='mb-4 border p-4 rounded-md'>
                     <h1 className="text-2xl font-bold text-blue-800 mb-2">Q: How Does React work?</h1>
-                    <p className="text-lg font-medium text-teal-950">Ans: React works by creating a virtual representation of the UI called the Virtual DOM, updating it efficiently and rendering the changes to the actual DOM. This allows developers to create complex and dynamic user interfaces that are fast and responsive.</p>
+                    <p className="text-lg font-medium text-teal-950">Ans: React works by creating a virtual representation of the UI called the Virtual DOM, updating it efficiently and rendering the changes to the actual DOM. This allows us to create complex and dynamic user interfaces that are fast and responsive.</p>
                 </div>
             </div>
         </div>
